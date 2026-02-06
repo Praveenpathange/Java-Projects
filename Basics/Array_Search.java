@@ -4,10 +4,9 @@ public class Array_Search{
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter the size of array : ");
        int size = sc.nextInt();
-       sc.nextLine();
        String[] name = new String[size];
        System.out.println("Enter the "+size+" Words : ");
-       
+       name = sc.nextLine();
        for(int i=0;i<size;i++){
          name[i] = sc.nextLine();
          name[i] = name[i].toLowerCase();
@@ -30,4 +29,5 @@ public class Array_Search{
        }
         sc.close();
     }
+
 }
